@@ -10,7 +10,7 @@ const userSchema= new mongoose.Schema({
         required: true,
         unique: true
     },
-    credit:{
+    credits:{
         type: Number,
         default: 100
     }
